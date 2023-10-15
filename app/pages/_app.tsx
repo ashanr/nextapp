@@ -1,7 +1,7 @@
-// pages/_app.js
+import type { AppProps } from 'next/app';
 import Navbar from '../components/Navbar';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
